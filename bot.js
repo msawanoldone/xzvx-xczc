@@ -5,7 +5,6 @@ const dateFormat = require('dateformat');
 const fs = require('fs');
 const pretty = require('pretty-ms');
 const rn = require('random-number');
-const userData = JSON.parse(fs.readFileSync('./userData.json', 'utf8'));
 const moment = require('moment');
 var Canvas = require('canvas')
 var jimp = require('jimp')
