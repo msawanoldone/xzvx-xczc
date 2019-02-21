@@ -523,7 +523,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "{King_Bot}."
+          text: "{Prestige System}."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -590,7 +590,7 @@ client.on('message', message => { //bot
                                     .setAuthor(client.user.username,client.user.avatarURL)
                                     .setThumbnail(client.user.avatarURL)
                                     .setColor('RANDOM')
-                                    .setTitle('``KinG BoT`` ')
+                                    .setTitle('``Prestige System ')
                                     .addField('``البنق🚀``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
                                     .addField('``استخدام الذاكرة ``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
                                     .addField('``السيرفرات🌐``', [client.guilds.size], true)
@@ -660,7 +660,7 @@ client.on('message', message => {
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
 .setDescription("معلومات عن الحــساب")
-               .setFooter(`{King_Bot}.`, '')
+               .setFooter(`{Prestige System}.`, '')
   .setColor("#9B59B6")
   .addField("اســـم الحســاب", `${message.author.username}`)
   .addField('كود الحساب الخاص', message.author.discriminator)
